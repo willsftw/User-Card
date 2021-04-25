@@ -1,0 +1,41 @@
+h1, h2, h3, p{
+    margin: 0px;
+}
+
+.words{
+    margin-left: 20px;
+    position: relative;
+    bottom: 35px;
+}
+
+.container {
+    height: 300px;
+    width: 450px;
+    border: 2px solid black;
+}
+.blue-block{
+    height: 25%;
+    background-color: skyblue;
+}
+.userpic {
+    height: 75px;
+    width: 75px;
+    position: relative;
+    bottom: 35px;
+    left: 10px;
+    border: 2px solid grey;
+    border-radius: 50%;
+}
+.gear, .map{
+    margin-right: 15px;
+    height: 15px;
+}
+.location, .edit {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin:10px 0px;
+}
+.edit {
+    margin-top: 15px;
+}
